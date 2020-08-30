@@ -18,7 +18,7 @@
     <el-form-item style="width: 100%">
       <el-button type="primary" style="width: 100%;background: #505458;border: none" v-on:click="login">登录</el-button>
     </el-form-item>
-    <el-button class ="guest" type="info" round >访客登录</el-button>
+    <!-- <el-button class ="guest" type="info" round >访客登录</el-button> -->
   </el-form>
 </body>
 </template>
@@ -56,7 +56,7 @@
   }
 
   #poster {
-      background:url("../assets/1.jpg") no-repeat;
+      background:url("../assets/girl.jpg") no-repeat;
       background-position: center;
       height: 100%;
       width: 100%;
